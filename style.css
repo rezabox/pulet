@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    align-self: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.box{
+    position: absolute;
+    display: flex;
+    top: 40px;
+    right: 40px;
+    padding: 20px;
+    background-color: #fff;
+}
+.box a{
+    width:50px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+    text-indent: 900px;    
+}
+#red{
+    background: #b71c1c; 
+}
+#blue{
+    background: #0D47A1;
+}
+#green{
+    background: #1B5E20;
+}
+#gray{
+    background: #263238;
+}
+#orange{
+    background:#BF360C;
+}
+
+
